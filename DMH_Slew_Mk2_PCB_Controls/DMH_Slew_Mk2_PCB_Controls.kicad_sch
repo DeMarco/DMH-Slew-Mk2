@@ -10,187 +10,6 @@
 		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
-	(table
-		(column_count 2)
-		(border
-			(external no)
-			(header no)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 19.05 19.05)
-		(row_heights 2.54 2.54 2.54 2.54 2.54)
-		(uuid "34364c34-cec1-4016-ace3-be2a071136e5")
-		(cells
-			(table_cell "Legend"
-				(exclude_from_sim no)
-				(at 246.38 166.37 0)
-				(size 38.1 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 2 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "adbf4d70-867b-44ac-b90e-c4cd256e43c3")
-			)
-			(table_cell "rgb(240, 240, 240)"
-				(exclude_from_sim no)
-				(at 265.43 166.37 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 0 0)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "fe89eadc-0608-43b1-bad0-2c59cc6e7e80")
-			)
-			(table_cell "_S"
-				(exclude_from_sim no)
-				(at 246.38 168.91 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "a25c9120-ee94-488a-8c24-21fdc7773075")
-			)
-			(table_cell "Submodule PCB"
-				(exclude_from_sim no)
-				(at 265.43 168.91 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "146a245d-0fa4-41c8-9394-0849f0f7b39c")
-			)
-			(table_cell "_C"
-				(exclude_from_sim no)
-				(at 246.38 171.45 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "99d8b8fc-5e17-4c8c-9066-cf8cba4f1e50")
-			)
-			(table_cell "Controls PCB"
-				(exclude_from_sim no)
-				(at 265.43 171.45 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "6b5350a0-4ec8-49a8-9275-d76a1314a611")
-			)
-			(table_cell "_M"
-				(exclude_from_sim no)
-				(at 246.38 173.99 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "23b35fb3-897c-4bf8-973f-5318376cc199")
-			)
-			(table_cell "Main PCB"
-				(exclude_from_sim no)
-				(at 265.43 173.99 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "fa8fda2b-0a4d-4102-ad13-6ee3abd4db1e")
-			)
-			(table_cell "_J"
-				(exclude_from_sim no)
-				(at 246.38 176.53 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "6f96fe16-a6ee-4d52-81db-28330bd680d9")
-			)
-			(table_cell "Jacks PCB"
-				(exclude_from_sim no)
-				(at 265.43 176.53 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "94ff5262-6229-4f8d-a993-69664d84c3c7")
-			)
-		)
-	)
 	(sheet
 		(at 25.4 38.1)
 		(size 25.4 25.4)
@@ -231,7 +50,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "6")
 				)
@@ -278,7 +97,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
 				)
@@ -325,7 +144,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
 				)
@@ -372,7 +191,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)
@@ -419,7 +238,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "5")
 				)

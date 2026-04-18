@@ -2785,12 +2785,6 @@
 		)
 	)
 	(junction
-		(at 63.5 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05f52adb-e890-4d30-8962-900133d6efe9")
-	)
-	(junction
 		(at 95.25 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2813,6 +2807,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33495cf0-0d10-4408-b7f0-9ffa44305b4d")
+	)
+	(junction
+		(at 63.5 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d10b8d3-5450-4bfe-8012-96f899068441")
 	)
 	(junction
 		(at 36.83 180.34)
@@ -2886,23 +2886,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 135.89) (xy 114.3 135.89)
+			(xy 157.48 132.08) (xy 157.48 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0804e3e1-0d5c-4f71-92df-5194313f73e8")
+		(uuid "01e524aa-9cb7-49b5-877e-b33f6d24f803")
 	)
 	(wire
 		(pts
-			(xy 55.88 146.05) (xy 63.5 146.05)
+			(xy 111.76 107.95) (xy 114.3 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "089a1a8b-69ef-4056-8de9-1a2a99d7d308")
+		(uuid "0570a7dc-0077-4b20-b088-c37429e8166e")
 	)
 	(wire
 		(pts
@@ -2926,6 +2926,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 129.54) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe1b48f-2cf9-47ed-8a43-1e368424811b")
+	)
+	(wire
+		(pts
 			(xy 107.95 161.29) (xy 107.95 177.8)
 		)
 		(stroke
@@ -2936,23 +2946,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 114.3 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "175de2e8-5f5b-46a3-a8b7-ef2ca68b6668")
-	)
-	(wire
-		(pts
 			(xy 55.88 120.65) (xy 63.5 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "176880fc-e091-4359-a38b-f18a5dc773c5")
+		(uuid "206e9bb6-a36c-41de-8352-c748098417d5")
 	)
 	(wire
 		(pts
@@ -2966,13 +2966,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54) (xy 228.6 129.54)
+			(xy 172.72 132.08) (xy 172.72 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "272436d2-e355-40eb-9d1d-4434b1ba316e")
+		(uuid "23629e6b-686a-43c1-b74b-756486c2df82")
 	)
 	(wire
 		(pts
@@ -2996,23 +2996,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 135.89) (xy 215.9 133.35)
+			(xy 111.76 135.89) (xy 114.3 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31befed0-6ccc-46a2-b42f-179caae86b36")
-	)
-	(wire
-		(pts
-			(xy 63.5 137.16) (xy 63.5 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328e3968-c9d9-4b03-bf62-65e7a8ece0b3")
+		(uuid "2eb5df47-6d41-428f-b818-b2278b3f58e7")
 	)
 	(wire
 		(pts
@@ -3046,13 +3036,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 107.95) (xy 114.3 105.41)
+			(xy 127 101.6) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38f6746d-8264-4342-92f0-3aebf2a3759c")
+		(uuid "3a7274a9-afc3-42ba-aa47-bbb60b8fa07f")
 	)
 	(wire
 		(pts
@@ -3066,23 +3056,33 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 109.22 101.6)
+			(xy 171.45 132.08) (xy 172.72 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40dc2295-a0a9-4772-954c-37e86d839a7b")
+		(uuid "416ee8f6-5361-440f-81c2-ff8db47aa194")
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 127 121.92)
+			(xy 63.5 95.25) (xy 63.5 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "506a3958-9154-4c8a-9e18-488a0d539d3c")
+		(uuid "441a52a7-2254-49f2-b32a-05b222f50dea")
+	)
+	(wire
+		(pts
+			(xy 158.75 189.23) (xy 158.75 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fae0549-158e-4cb7-85ee-d4fb7c7a6ff6")
 	)
 	(wire
 		(pts
@@ -3093,6 +3093,26 @@
 			(type default)
 		)
 		(uuid "51b9c94c-17d9-4099-8b35-5786eeddf151")
+	)
+	(wire
+		(pts
+			(xy 114.3 135.89) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5255d089-c1cc-465d-902f-89d2d9758301")
+	)
+	(wire
+		(pts
+			(xy 55.88 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5616de61-0b14-4d45-9371-0b8eb602a665")
 	)
 	(wire
 		(pts
@@ -3136,33 +3156,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 135.89) (xy 215.9 135.89)
+			(xy 215.9 135.89) (xy 215.9 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d80f3bc-d94e-41a3-a6b2-81c2f2e9989b")
-	)
-	(wire
-		(pts
-			(xy 157.48 132.08) (xy 158.75 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e9c9ad5-e8ec-4a3e-94ab-a450369a07fb")
-	)
-	(wire
-		(pts
-			(xy 157.48 132.08) (xy 157.48 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6142b258-7359-41db-b573-78ae0ea2aaf8")
+		(uuid "5d28a802-7342-43fa-9ad1-e4402ed0a35a")
 	)
 	(wire
 		(pts
@@ -3206,6 +3206,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 129.54) (xy 210.82 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9bbe82-63e6-4753-acfd-ddac81669f7e")
+	)
+	(wire
+		(pts
 			(xy 34.29 190.5) (xy 36.83 190.5)
 		)
 		(stroke
@@ -3236,13 +3246,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 95.25) (xy 63.5 104.14)
+			(xy 119.38 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d142e21-f8e8-4966-9787-61a0cab099ed")
+		(uuid "7c62d5b3-dc28-435a-a0c7-a9fff1656d7b")
 	)
 	(wire
 		(pts
@@ -3276,16 +3286,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 129.54) (xy 210.82 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "868752c0-9295-4206-9651-af0944ec721a")
-	)
-	(wire
-		(pts
 			(xy 54.61 175.26) (xy 60.96 175.26)
 		)
 		(stroke
@@ -3296,23 +3296,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 63.5 120.65)
+			(xy 220.98 129.54) (xy 228.6 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88191ebe-9b51-47db-82a1-290896327324")
-	)
-	(wire
-		(pts
-			(xy 63.5 120.65) (xy 63.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a31f215-795b-4cde-9356-9ff19063feb4")
+		(uuid "87d2a9f1-fe68-4fb9-a784-8ef34a566a45")
 	)
 	(wire
 		(pts
@@ -3336,13 +3326,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 132.08) (xy 172.72 132.08)
+			(xy 63.5 111.76) (xy 63.5 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fb1817f-2f03-4730-bf67-0df1dd9020e9")
+		(uuid "8f5a0ad7-eb1a-4809-8ad7-849139a564be")
+	)
+	(wire
+		(pts
+			(xy 63.5 120.65) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e7e800-5fe4-4e1d-8a6d-1c9140a5ac15")
 	)
 	(wire
 		(pts
@@ -3406,6 +3406,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 132.08) (xy 157.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbdffc5-9ed2-4641-aa4a-cfa06ace17b6")
+	)
+	(wire
+		(pts
+			(xy 218.44 135.89) (xy 215.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeecdcbd-428f-47f3-b3d5-f842a4d2790c")
+	)
+	(wire
+		(pts
 			(xy 40.64 165.1) (xy 40.64 162.56)
 		)
 		(stroke
@@ -3436,6 +3456,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 101.6) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd73cbf4-cc5a-4084-b58b-40cf3bff75e3")
+	)
+	(wire
+		(pts
 			(xy 95.25 177.8) (xy 95.25 180.34)
 		)
 		(stroke
@@ -3443,16 +3473,6 @@
 			(type default)
 		)
 		(uuid "c243fed0-cd54-4372-bd17-53d0f9ac5635")
-	)
-	(wire
-		(pts
-			(xy 158.75 189.23) (xy 158.75 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31ec3a1-1f1c-4f65-844e-94a742a912fd")
 	)
 	(wire
 		(pts
@@ -3476,6 +3496,36 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 107.95) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c771bdee-1844-489c-b06d-20fd0f1bc286")
+	)
+	(wire
+		(pts
+			(xy 119.38 129.54) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f64959-e06d-4298-9e71-c0a0261b5b48")
+	)
+	(wire
+		(pts
+			(xy 63.5 137.16) (xy 63.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2c85c1-bfe2-453f-895e-b8e427030912")
+	)
+	(wire
+		(pts
 			(xy 16.51 190.5) (xy 16.51 196.85)
 		)
 		(stroke
@@ -3496,33 +3546,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 158.75 129.54)
+			(xy 55.88 146.05) (xy 63.5 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0f89cdb-f9cd-41c5-8ca6-a6544846155e")
-	)
-	(wire
-		(pts
-			(xy 172.72 132.08) (xy 172.72 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e105112e-3ee8-4355-9d2e-3ff386c0741c")
-	)
-	(wire
-		(pts
-			(xy 114.3 135.89) (xy 114.3 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e283ff94-e074-442e-b4e2-a78a65da3ed0")
+		(uuid "df6005ab-ea4d-462e-af8b-9774f0968255")
 	)
 	(wire
 		(pts
@@ -3543,26 +3573,6 @@
 			(type default)
 		)
 		(uuid "e8969faf-4388-4713-b88a-e6d8f9a163e4")
-	)
-	(wire
-		(pts
-			(xy 55.88 95.25) (xy 63.5 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea8ca7e2-00e4-4b2c-8458-2e4dfe84ed7f")
-	)
-	(wire
-		(pts
-			(xy 127 121.92) (xy 158.75 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec5bc1e4-d1a3-4ac1-aee4-98eead7313ef")
 	)
 	(wire
 		(pts
@@ -3596,27 +3606,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 129.54) (xy 109.22 129.54)
+			(xy 127 121.92) (xy 158.75 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f871485e-9856-47ab-bf0d-43f5226211a3")
+		(uuid "fb994e55-6cad-485b-a168-f64588b0b3f1")
 	)
-	(wire
-		(pts
-			(xy 119.38 101.6) (xy 127 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0b7999-892d-44df-96f8-8f9ba4b94116")
-	)
-	(global_label "A_F_Gate_Jack_TN_M"
-		(shape passive)
-		(at 158.75 127 180)
+	(global_label "A_Loopback_M"
+		(shape input)
+		(at 101.6 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3624,9 +3624,105 @@
 			)
 			(justify right)
 		)
-		(uuid "0534b126-17e5-47f7-8f07-fb8e5c24cfc8")
+		(uuid "1504cb5a-3848-4e8f-a050-492899667de0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.5335 127 0)
+			(at 85.2498 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "B_In_Jack_TN_M"
+		(shape output)
+		(at 218.44 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "210ebb2e-bb11-41f9-9ba2-df4482e44a3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.3022 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B_R_Gate_Jack_TN_M"
+		(shape passive)
+		(at 171.45 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25980cef-edd3-42a7-b878-1b4406ae336d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.0293 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A_In_Jack_TN_M"
+		(shape output)
+		(at 111.76 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66a12a8d-5ada-417b-b76f-c9d5b250c929")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.1905 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "A_R_Gate_Jack_TN_M"
+		(shape passive)
+		(at 158.75 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82f4ceb8-6c07-4e95-bf60-76432fd166f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.3521 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3648,7 +3744,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0a41d7dd-0e7f-4b07-ae35-8a11c1a6c312")
+		(uuid "9bc18361-0fd2-42f5-a689-4607a02760fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 193.8479 127 0)
 			(hide yes)
@@ -3672,7 +3768,7 @@
 			)
 			(justify left)
 		)
-		(uuid "29fd180a-01fc-4b92-a9b9-41e23cd1c1e7")
+		(uuid "bd651dda-658e-441c-b0de-7cbdf8a759ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.0075 190.5 0)
 			(hide yes)
@@ -3686,56 +3782,8 @@
 			)
 		)
 	)
-	(global_label "B_In_Jack_TN_M"
-		(shape output)
-		(at 218.44 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4905afc8-2780-4437-9ddd-621bea6e4ed8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3022 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "A_In_Jack_TN_M"
-		(shape output)
-		(at 111.76 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65c16b2e-815d-4c60-be62-a1942d8a5241")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.1905 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "B_Out_Jack_TN_M"
-		(shape passive)
+		(shape input)
 		(at 171.45 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3744,7 +3792,7 @@
 			)
 			(justify left)
 		)
-		(uuid "94ada415-4b4f-491a-8501-890e402673dc")
+		(uuid "d06f090b-6caf-4799-9dd7-97241b592f3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.7636 121.92 0)
 			(hide yes)
@@ -3758,6 +3806,30 @@
 			)
 		)
 	)
+	(global_label "A_F_Gate_Jack_TN_M"
+		(shape passive)
+		(at 158.75 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6e03bdf-c131-493e-bf46-62da47d8bd45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5335 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Bus_CV_M"
 		(shape output)
 		(at 101.6 101.6 180)
@@ -3768,81 +3840,9 @@
 			)
 			(justify right)
 		)
-		(uuid "be1de2d7-85c2-4470-987b-1c9210a27288")
+		(uuid "e4277cf2-560b-4533-b5ed-a56393c67202")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.4225 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "A_Out_Jack_TN_M"
-		(shape input)
-		(at 111.76 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1d3deac-6a81-44bd-bcbf-5b28c7dee47d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.6278 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "B_R_Gate_Jack_TN_M"
-		(shape passive)
-		(at 171.45 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cec03b8c-1d96-4124-bf68-f64951887968")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.0293 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "A_R_Gate_Jack_TN_M"
-		(shape passive)
-		(at 158.75 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddd2b016-69eb-4ea7-b15c-ebbc5a4b3743")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.3521 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +3864,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f5b9ef18-cf3c-4e67-b406-c3967e00cee9")
+		(uuid "f1438ebe-6b23-428d-aca8-cde28d203a27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.1316 129.54 0)
 			(hide yes)
@@ -3878,9 +3878,9 @@
 			)
 		)
 	)
-	(global_label "A_Loopback_M"
+	(global_label "A_Out_Jack_TN_M"
 		(shape input)
-		(at 101.6 129.54 180)
+		(at 111.76 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3888,9 +3888,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f9bb20d8-7324-437b-8e1a-7741da9e7f41")
+		(uuid "f3282eca-86e0-4a7c-9725-96fb8606649f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.2498 129.54 0)
+			(at 92.6278 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,42 +3941,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 107.95 177.8 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10b48100-0482-480f-8d9e-02c35533dc32")
-		(property "Net Class" "Power"
-			(at 110.49 177.1015 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 1.27 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 44.45 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4010,6 +3974,42 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 107.95 177.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b01036e8-d9cf-4314-9559-9b5c109b8cd8")
+		(property "Net Class" "Power"
+			(at 110.49 177.1015 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 1.27 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 60.96 175.26 0)
@@ -4017,7 +4017,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4080,7 +4080,7 @@
 			(uuid "92a72445-1f80-481d-90a7-3c3239c8ee9b")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#FLG01")
 					(unit 1)
@@ -4095,7 +4095,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4162,7 +4162,7 @@
 			(uuid "abd617c0-a8ad-47d6-8dae-bed602ee6005")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "C2")
 					(unit 1)
@@ -4177,7 +4177,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4240,7 +4240,7 @@
 			(uuid "ff2a96bd-da94-41b3-af84-46ef0af9b9d0")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR050")
 					(unit 1)
@@ -4255,7 +4255,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4319,7 +4319,7 @@
 			(uuid "c6e20186-664c-4039-bb3f-6da5e181b66f")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR02")
 					(unit 1)
@@ -4334,7 +4334,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "2569edd0-1c9d-49fe-b01a-8ea1b7b9a0d7")
@@ -4393,7 +4393,7 @@
 			)
 		)
 		(property "Function" "GND"
-			(at 163.322 184.15 90)
+			(at 162.814 183.896 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4409,7 +4409,7 @@
 			(uuid "a81c8ece-dcdf-4ff8-b8dc-5145f4a8b9d1")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "J0")
 					(unit 1)
@@ -4424,7 +4424,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4487,7 +4487,7 @@
 			(uuid "95481c23-2e3f-4796-b64f-b3741d63b0b3")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR013")
 					(unit 1)
@@ -4502,7 +4502,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4575,7 +4575,7 @@
 			(uuid "cb744dd7-c251-4c3a-86b6-00f66d5096a8")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR031")
 					(unit 1)
@@ -4590,7 +4590,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ba90996-2c25-47bd-baed-00e42f774cc3")
@@ -4653,7 +4653,7 @@
 			(uuid "b0bb8fd9-9bc5-40b4-ba27-009cad953148")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR04")
 					(unit 1)
@@ -4668,7 +4668,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eb9bbc8-210b-4edc-b37b-7b8d83caf7ae")
@@ -4758,7 +4758,7 @@
 			(uuid "c6d6590b-0bba-471a-8c4c-f777d33476d6")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "J200")
 					(unit 1)
@@ -4773,7 +4773,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4836,7 +4836,7 @@
 			(uuid "ab1be274-c640-4a26-96db-ef7167157938")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR017")
 					(unit 1)
@@ -4851,7 +4851,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4914,7 +4914,7 @@
 			(uuid "2187a505-4712-4ddd-a130-f6322013b68d")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#FLG02")
 					(unit 1)
@@ -4924,18 +4924,18 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 135.89 0)
+		(at 157.48 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d731bbc-bf2a-4b28-a49f-7ace154f7eeb")
 		(property "Reference" "#PWR047"
-			(at 172.72 142.24 0)
+			(at 157.48 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4946,7 +4946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 140.97 0)
+			(at 157.48 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4956,7 +4956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 135.89 0)
+			(at 157.48 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4967,7 +4967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 135.89 0)
+			(at 157.48 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4978,7 +4978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 135.89 0)
+			(at 157.48 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4992,7 +4992,7 @@
 			(uuid "08a390a5-960c-43ac-abd3-0f0a9908c18b")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR047")
 					(unit 1)
@@ -5007,7 +5007,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5084,7 +5084,7 @@
 			(uuid "8fe3f556-30a2-4f65-af91-23bafc81341b")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "R49")
 					(unit 1)
@@ -5099,7 +5099,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "505c50b5-c20b-4ce1-9277-2f36ac85b5c4")
@@ -5179,7 +5179,7 @@
 			(uuid "d6049cde-c609-47e1-aeb4-4f670dd1ecb9")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "JP1")
 					(unit 1)
@@ -5194,7 +5194,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5257,7 +5257,7 @@
 			(uuid "7b35ddcf-cad3-484f-9028-6c5835d91f0a")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR08")
 					(unit 1)
@@ -5273,7 +5273,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52028f66-f3ac-422b-b75a-dba9d5e6f9ff")
@@ -5351,7 +5351,7 @@
 			(uuid "aadb4a64-493d-4d94-a682-c30a50b527a1")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "U10")
 					(unit 1)
@@ -5367,7 +5367,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e8c613d-08ad-4d80-8ef5-582cc0bfd4d5")
@@ -5447,7 +5447,7 @@
 			(uuid "6e829459-484b-4b19-b1ba-740cd9f00ac8")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "JP3")
 					(unit 1)
@@ -5462,7 +5462,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5527,7 +5527,7 @@
 			(uuid "64aed6c2-0cd3-4708-bfbe-235c5122f127")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "D3")
 					(unit 1)
@@ -5542,7 +5542,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5607,7 +5607,7 @@
 			(uuid "59bb963a-d8dc-4e5b-97ff-0835ec19697b")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "D4")
 					(unit 1)
@@ -5622,7 +5622,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5685,7 +5685,7 @@
 			(uuid "19fcbe30-0ece-4f69-92d3-34510c22fab6")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR015")
 					(unit 1)
@@ -5700,7 +5700,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5764,7 +5764,7 @@
 			(uuid "5989b16c-683c-4296-b17a-2744382074bd")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR01")
 					(unit 1)
@@ -5780,7 +5780,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "996b6400-ad8b-4100-b7fd-7529beccec2d")
@@ -5846,87 +5846,9 @@
 			(uuid "b5c3644f-9d36-414c-82ed-8b520aef8f7a")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a98bfdfd-0b07-4f8f-b6c0-09e2ff0289d9")
-		(property "Reference" "#PWR064"
-			(at 157.48 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11eafd59-16d1-42c9-b23c-9f861a9337b3")
-		)
-		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5939,7 +5861,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6003,9 +5925,87 @@
 			(uuid "c026c853-1834-498a-b11f-3623de32b9b9")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4d7551d-dd20-44ca-8072-a3cc4f5e5a11")
+		(property "Reference" "#PWR064"
+			(at 172.72 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30b3ac8d-34bc-42b4-bf1a-7018cafcd8a3")
+		)
+		(instances
+			(project "DMH_Slew_Mk2_PCB_Controls"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6018,7 +6018,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6081,7 +6081,7 @@
 			(uuid "02ea5071-5749-4a5b-aacc-ea6663bbd6ad")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR049")
 					(unit 1)
@@ -6096,7 +6096,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6163,7 +6163,7 @@
 			(uuid "776001ad-9c8e-48e0-8dac-da457623aba3")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "C1")
 					(unit 1)
@@ -6178,7 +6178,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7493583-6c65-4cb4-8308-b4d3a2a04800")
@@ -6258,7 +6258,7 @@
 			(uuid "0e7bab9f-f191-4eb5-bc05-f1a291698a72")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "JP2")
 					(unit 1)
@@ -6273,7 +6273,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6390,7 +6390,7 @@
 			(uuid "bda3cf1e-a0bb-4d6d-b500-8d901f457de9")
 		)
 		(instances
-			(project "DMH_Slew_Mk2_PCB_Main"
+			(project "DMH_Slew_Mk2_PCB_Controls"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "J100")
 					(unit 1)

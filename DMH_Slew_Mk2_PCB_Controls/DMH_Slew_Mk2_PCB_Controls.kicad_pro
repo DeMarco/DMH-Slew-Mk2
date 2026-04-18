@@ -60,20 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|63633333|64935771|782742b1-79f5-4d14-ae61-3aed2196f227|2f836716-c4a1-4c6e-a771-4b4996a9cdbd",
-          ""
-        ],
-        [
-          "starved_thermal|64000000|105080000|49c24fee-40da-4d9d-84b7-a1c6af2a54c9|41375597-3638-439a-baf6-3efdcd07b1e4|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|66540000|105080000|49c24fee-40da-4d9d-84b7-a1c6af2a54c9|ba170a9f-088a-4926-981a-89aeb5859182|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -480,7 +467,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -502,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH_Slew_Mk2_PCB_Main.kicad_pro",
+    "filename": "DMH_Slew_Mk2_PCB_Controls.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -530,6 +517,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -658,42 +646,12 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Function",
-          "name": "Function",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -747,18 +705,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "DMH_Slew_Mk2_PCB_Main.kicad_sch",
-        "name": "DMH_Slew_Mk2_PCB_Main",
+        "filename": "DMH_Slew_Mk2_PCB_Controls.kicad_sch",
+        "name": "DMH_Slew_Mk2_PCB_Controls",
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "#PWR46,#PWR64,SW7",
+    "used_designators": "RV1,#PWR64",
     "variants": []
   },
   "sheets": [
     [
       "58f4306d-5387-4983-bb08-41a2313fd315",
-      "DMH_Slew_Mk2_PCB_Main"
+      "DMH_Slew_Mk2_PCB_Controls"
     ],
     [
       "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
