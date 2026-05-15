@@ -9904,7 +9904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
+		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 			(at 167.64 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10218,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
+		(property "Footprint" "SynthStuff:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)

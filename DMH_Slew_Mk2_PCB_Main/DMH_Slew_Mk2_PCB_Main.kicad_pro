@@ -62,7 +62,7 @@
       ],
       "drc_exclusions": [
         [
-          "silk_over_copper|63633333|64935771|782742b1-79f5-4d14-ae61-3aed2196f227|2f836716-c4a1-4c6e-a771-4b4996a9cdbd",
+          "silk_over_copper|63585714|65031009|782742b1-79f5-4d14-ae61-3aed2196f227|2f836716-c4a1-4c6e-a771-4b4996a9cdbd",
           ""
         ],
         [
@@ -752,7 +752,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "#PWR46,#PWR64,SW7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
