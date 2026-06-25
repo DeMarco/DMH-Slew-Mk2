@@ -1,0 +1,25 @@
+Drill report for DMH_Slew_Mk2_PCB_Main.kicad_pcb
+Created on 2026-06-25T20:59:33
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DMH_Slew_Mk2_PCB_Main-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.750mm  0.0295"  (3 holes))
+    T2  0.800mm  0.0315"  (8 holes))
+    T3  1.000mm  0.0394"  (146 holes)  (with 30 slots)
+    T4  1.100mm  0.0433"  (4 holes))
+
+    Total plated holes count 161
+
+
+Drill file 'DMH_Slew_Mk2_PCB_Main-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
