@@ -2631,33 +2631,40 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SynthStuff:TS_Jack_6.35mm_Sw"
+		(symbol "SynthStuff:TRS_Jack_6.35mm_Sw"
+			(pin_names
+				(offset 0.635)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -0.635 8.89 0)
+				(at -7.366 7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "TS_Jack_6.35mm_Sw"
-				(at -0.635 6.35 0)
+			(property "Value" "TRS_Jack_6.35mm_Sw"
+				(at -7.62 -8.382 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(property "Footprint" "SynthStuff:CUI_SJ-63083D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2666,6 +2673,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -2679,7 +2687,7 @@
 					)
 				)
 			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2690,67 +2698,23 @@
 					)
 				)
 			)
-			(property "ki_keywords" "mono audio jack receptacle 6.35mm TS connector tip switch"
-				(at 0 0 0)
+			(property "Function" "Function"
+				(at 0 -8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(italic yes)
 					)
 				)
 			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TS_Jack_6.35mm_Sw_0_1"
+			(symbol "TRS_Jack_6.35mm_Sw_0_0"
 				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.254) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -5.08)
+					(start -7.62 -6.35)
+					(end 6.35 6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2761,7 +2725,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+						(xy -6.35 5.08) (xy -6.35 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -2773,68 +2737,308 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+						(xy -6.35 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 4.318) (xy 4.064 3.556) (xy 3.556 3.556) (xy 3.81 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.778) (xy 4.064 -1.016) (xy 3.556 -1.016) (xy 3.81 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "TS_Jack_6.35mm_Sw_1_1"
+			(symbol "TRS_Jack_6.35mm_Sw_1_0"
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 8.89 5.08 180)
 					(length 2.54)
-					(name ""
+					(name "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "S"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 8.89 -2.54 180)
 					(length 2.54)
-					(name ""
+					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "T"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 8.89 0 180)
 					(length 2.54)
-					(name ""
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "TN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4160,6 +4364,30 @@
 		(color 0 0 0 0)
 		(uuid "fc5a59b5-1a65-4109-9c1b-f22c219621c9")
 	)
+	(no_connect
+		(at 350.52 121.92)
+		(uuid "0aae04a4-dd22-4e7b-b35a-76228b50182c")
+	)
+	(no_connect
+		(at 41.91 74.93)
+		(uuid "3f290ef1-f40e-4090-8276-aee30e828cfe")
+	)
+	(no_connect
+		(at 41.91 77.47)
+		(uuid "4ba69ee4-f2f5-416e-b8f1-d14a6044b1a4")
+	)
+	(no_connect
+		(at 55.88 157.48)
+		(uuid "76de2d73-58ff-463a-b66c-d57d3f5d4bcd")
+	)
+	(no_connect
+		(at 350.52 119.38)
+		(uuid "81219254-8375-4e65-b2b2-c7f87299fcfa")
+	)
+	(no_connect
+		(at 55.88 160.02)
+		(uuid "84577b8f-05b8-4f15-8ec7-77ef0c39cd08")
+	)
 	(wire
 		(pts
 			(xy 266.7 88.9) (xy 266.7 91.44)
@@ -4329,16 +4557,6 @@
 			(type default)
 		)
 		(uuid "10751245-9a6d-47de-b310-97ac4f049bf4")
-	)
-	(wire
-		(pts
-			(xy 43.18 82.55) (xy 53.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a245b4-2334-4b79-85c5-288938371781")
 	)
 	(wire
 		(pts
@@ -4782,6 +5000,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 80.01) (xy 45.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca6962d-cf0c-44eb-b363-c2958b8535cf")
+	)
+	(wire
+		(pts
 			(xy 154.94 97.79) (xy 154.94 91.44)
 		)
 		(stroke
@@ -4872,16 +5100,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 85.09) (xy 44.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430a40e9-a235-4d0d-89eb-13fa23698777")
-	)
-	(wire
-		(pts
 			(xy 264.16 88.9) (xy 266.7 88.9)
 		)
 		(stroke
@@ -4902,7 +5120,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 80.01) (xy 44.45 76.2)
+			(xy 45.72 80.01) (xy 45.72 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4929,6 +5147,16 @@
 			(type default)
 		)
 		(uuid "46ff196d-75e4-4093-a272-04c808f9cba4")
+	)
+	(wire
+		(pts
+			(xy 41.91 85.09) (xy 45.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47242025-5797-45a0-a3a2-b3a65e1e0d2e")
 	)
 	(wire
 		(pts
@@ -5632,7 +5860,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 44.45 86.36)
+			(xy 45.72 85.09) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6242,16 +6470,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 80.01) (xy 44.45 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd5cf881-3fea-422f-9cf8-f8208c19a3db")
-	)
-	(wire
-		(pts
 			(xy 342.9 77.47) (xy 349.25 77.47)
 		)
 		(stroke
@@ -6269,6 +6487,16 @@
 			(type default)
 		)
 		(uuid "c04eba4e-3bc8-4f3c-8792-1ab0a1808ba3")
+	)
+	(wire
+		(pts
+			(xy 41.91 82.55) (xy 53.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09d1e60-13a0-4868-ac5f-589e41a834b5")
 	)
 	(wire
 		(pts
@@ -8949,7 +9177,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 327.66 114.3) (xy 361.95 114.3) (xy 361.95 139.7) (xy 327.66 139.7)
+				(xy 327.66 114.3) (xy 370.84 114.3) (xy 370.84 139.7) (xy 327.66 139.7)
 			)
 			(stroke
 				(width 0)
@@ -9063,7 +9291,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 44.45 152.4) (xy 80.01 152.4) (xy 80.01 198.12) (xy 44.45 198.12)
+				(xy 36.83 152.4) (xy 80.01 152.4) (xy 80.01 198.12) (xy 36.83 198.12)
 			)
 			(stroke
 				(width 0)
@@ -9082,7 +9310,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 30.48 64.77) (xy 50.8 64.77) (xy 50.8 95.25) (xy 30.48 95.25)
+				(xy 19.05 64.77) (xy 50.8 64.77) (xy 50.8 95.25) (xy 19.05 95.25)
 			)
 			(stroke
 				(width 0)
@@ -9247,7 +9475,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 30.48 64.77 0)
+		(at 21.59 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9257,7 +9485,7 @@
 		)
 		(uuid "bb73436c-f6e5-4034-a352-4b0db2abef7b")
 		(property "Component Class" "Main PCB"
-			(at 31.1785 62.23 0)
+			(at 22.2885 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10436,9 +10664,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 38.1 82.55 0)
-		(mirror x)
+		(lib_id "SynthStuff:TRS_Jack_6.35mm_Sw")
+		(at 33.02 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10448,7 +10675,7 @@
 		(dnp no)
 		(uuid "2731ced2-54fd-4e56-9cff-a3834c098427")
 		(property "Reference" "J7"
-			(at 38.1 88.138 0)
+			(at 33.02 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10458,7 +10685,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 37.465 88.9 0)
+			(at 25.4 88.392 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10466,10 +10693,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 38.1 82.55 0)
+		(property "Footprint" "SynthStuff:CUI_SJ-63083D"
+			(at 33.02 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10477,10 +10705,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 82.55 0)
+			(at 33.02 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10491,7 +10720,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 38.1 82.55 0)
+			(at 33.02 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10731,7 @@
 			)
 		)
 		(property "Function" "CV B In"
-			(at 38.1 75.438 0)
+			(at 33.02 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10522,6 +10751,12 @@
 		)
 		(pin "T"
 			(uuid "3839cace-d7e3-49a8-8ec2-11b08c7d8e98")
+		)
+		(pin "RN"
+			(uuid "1a2ee65a-358c-4abe-8de0-da6577ecce21")
+		)
+		(pin "R"
+			(uuid "14edca02-0105-4867-9a4d-956ba2196b3f")
 		)
 		(instances
 			(project "DMH_Slew_Mk2_PCB_Main"
@@ -13097,8 +13332,9 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 355.6 127 180)
+		(lib_id "SynthStuff:TRS_Jack_6.35mm_Sw")
+		(at 359.41 124.46 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13108,7 +13344,7 @@
 		(dnp no)
 		(uuid "602017ca-7379-4491-b0b0-4b214f76dc6f")
 		(property "Reference" "J8"
-			(at 355.6 132.588 0)
+			(at 359.41 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13118,7 +13354,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 356.235 133.35 0)
+			(at 367.03 132.842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13126,10 +13362,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 355.6 127 0)
+		(property "Footprint" "SynthStuff:CUI_SJ-63083D"
+			(at 359.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13137,10 +13374,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 127 0)
+			(at 359.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13151,7 +13389,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 355.6 127 0)
+			(at 359.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13162,7 +13400,7 @@
 			)
 		)
 		(property "Function" "Output B"
-			(at 355.6 119.888 0)
+			(at 359.41 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13182,6 +13420,12 @@
 		)
 		(pin "T"
 			(uuid "e21daa50-fff4-4ce7-9e07-8d0b2e15dffb")
+		)
+		(pin "R"
+			(uuid "9f2ec3dd-4190-4982-b972-f573d6d4c6e5")
+		)
+		(pin "RN"
+			(uuid "0a8d2b55-ddc3-4dc6-accd-52a8c442f04d")
 		)
 		(instances
 			(project "DMH_Slew_Mk2_PCB_Main"
@@ -16886,7 +17130,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 86.36 0)
+		(at 45.72 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16897,7 +17141,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9db2efe-68b6-4449-8787-4cd606543aec")
 		(property "Reference" "#PWR051"
-			(at 44.45 92.71 0)
+			(at 45.72 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16908,7 +17152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 91.44 0)
+			(at 45.72 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16918,7 +17162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 86.36 0)
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16929,7 +17173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 86.36 0)
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16940,7 +17184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 86.36 0)
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17280,9 +17524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:TS_Jack_6.35mm_Sw")
-		(at 50.8 165.1 0)
-		(mirror x)
+		(lib_id "SynthStuff:TRS_Jack_6.35mm_Sw")
+		(at 46.99 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17292,7 +17535,7 @@
 		(dnp no)
 		(uuid "d81f1910-bc5b-4ec7-ba21-8c311d8f9b67")
 		(property "Reference" "J6"
-			(at 50.8 170.942 0)
+			(at 46.99 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17302,7 +17545,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 50.165 171.45 0)
+			(at 39.37 170.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17310,10 +17553,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
-			(at 50.8 165.1 0)
+		(property "Footprint" "SynthStuff:CUI_SJ-63083D"
+			(at 46.99 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17321,10 +17565,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 165.1 0)
+			(at 46.99 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17335,7 +17580,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
-			(at 50.8 165.1 0)
+			(at 46.99 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17346,7 +17591,7 @@
 			)
 		)
 		(property "Function" "Input B"
-			(at 50.8 157.988 0)
+			(at 46.99 170.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17366,6 +17611,12 @@
 		)
 		(pin "T"
 			(uuid "0b14fdfb-e04c-4379-bb84-40b0d73b29b6")
+		)
+		(pin "RN"
+			(uuid "8eae26a7-b185-4068-bb3d-1039b2d9cc88")
+		)
+		(pin "R"
+			(uuid "e5d5b82a-cffa-4447-af0e-9d6272bea2d6")
 		)
 		(instances
 			(project "DMH_Slew_Mk2_PCB_Main"
@@ -17570,7 +17821,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 44.45 76.2 0)
+		(at 45.72 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17581,7 +17832,7 @@
 		(fields_autoplaced yes)
 		(uuid "defa9b7c-3277-4334-999b-b5ea1e42b114")
 		(property "Reference" "#PWR016"
-			(at 44.45 78.74 0)
+			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17592,7 +17843,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 44.45 68.58 0)
+			(at 45.72 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17602,7 +17853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 76.2 0)
+			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17613,7 +17864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 76.2 0)
+			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17624,7 +17875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 44.45 76.2 0)
+			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17635,7 +17886,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 44.45 76.2 0)
+			(at 45.72 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

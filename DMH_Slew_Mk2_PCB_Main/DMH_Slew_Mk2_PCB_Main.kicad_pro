@@ -62,15 +62,99 @@
       ],
       "drc_exclusions": [
         [
+          "silk_edge_clearance|50600000|152550000|b3c2b746-7928-4430-9218-c5517ec26bc0|acc465a8-0701-4c9b-93fd-a2f0051714f8",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|165950000|b3c2b746-7928-4430-9218-c5517ec26bc0|38ff9f13-c3b8-48a7-b44c-09cbe90d3eb5",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|165950000|b3c2b746-7928-4430-9218-c5517ec26bc0|dbcc6105-dfc6-4e6b-8d74-df345114f7d0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|169050000|b3c2b746-7928-4430-9218-c5517ec26bc0|4c898bc3-2d95-4992-9199-a4d8bdab22fd",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|182450000|b3c2b746-7928-4430-9218-c5517ec26bc0|1ef8dc4a-ab98-4b99-b411-2af0daebca26",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|182450000|b3c2b746-7928-4430-9218-c5517ec26bc0|b4612695-5f0f-426a-b19c-970fef3c0fda",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|185550000|b3c2b746-7928-4430-9218-c5517ec26bc0|283e8ef2-db85-463e-9dcd-4c971348b28e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|198950000|b3c2b746-7928-4430-9218-c5517ec26bc0|1caa9ec1-b7eb-4d37-910d-0c62b6f9ad60",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|198950000|b3c2b746-7928-4430-9218-c5517ec26bc0|6b3e3739-5d40-4d1f-b2f3-9e8800b25147",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|202050000|b3c2b746-7928-4430-9218-c5517ec26bc0|ee82810d-e02e-4dfa-8839-d98de65c5b60",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|215450000|b3c2b746-7928-4430-9218-c5517ec26bc0|a20e405f-901b-4a31-a3e9-d9b959fe9c27",
+          ""
+        ],
+        [
+          "silk_edge_clearance|50600000|215450000|b3c2b746-7928-4430-9218-c5517ec26bc0|c6e12170-24fe-41d7-8314-013b3d402e71",
+          ""
+        ],
+        [
+          "silk_edge_clearance|99400000|185550000|b3c2b746-7928-4430-9218-c5517ec26bc0|337c4ddc-52e4-4204-9c77-9e20437037f3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|99400000|185550000|b3c2b746-7928-4430-9218-c5517ec26bc0|d7bb64f3-43c6-4506-9386-8f79a9ef12e0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|99400000|196200000|b3c2b746-7928-4430-9218-c5517ec26bc0|c7336533-15f6-48ec-b111-ae342545c072",
+          ""
+        ],
+        [
+          "silk_edge_clearance|99400000|202050000|b3c2b746-7928-4430-9218-c5517ec26bc0|0c068eb8-dd4e-42c9-9c4b-1b85d65c8962",
+          ""
+        ],
+        [
+          "silk_edge_clearance|99400000|202050000|b3c2b746-7928-4430-9218-c5517ec26bc0|60d46e8d-17a6-41dd-9df9-f7469e51c036",
+          ""
+        ],
+        [
+          "silk_edge_clearance|99400000|212700000|b3c2b746-7928-4430-9218-c5517ec26bc0|83d7dc9b-d4c7-463c-b20d-e076492531cb",
+          ""
+        ],
+        [
           "silk_over_copper|63585714|65031009|782742b1-79f5-4d14-ae61-3aed2196f227|2f836716-c4a1-4c6e-a771-4b4996a9cdbd",
           ""
         ],
         [
-          "starved_thermal|64000000|105080000|49c24fee-40da-4d9d-84b7-a1c6af2a54c9|41375597-3638-439a-baf6-3efdcd07b1e4|B.Cu",
+          "silk_overlap|91750000|161300000|67f6766b-e954-4317-b8b7-b1aded23c43a|a03d0cdf-5634-4716-84e3-643954b706f7",
           ""
         ],
         [
-          "starved_thermal|66540000|105080000|49c24fee-40da-4d9d-84b7-a1c6af2a54c9|ba170a9f-088a-4926-981a-89aeb5859182|B.Cu",
+          "silk_overlap|91750000|161460000|a03d0cdf-5634-4716-84e3-643954b706f7|a0a35bbe-cd39-4b47-8b18-3081eb823a9b",
+          ""
+        ],
+        [
+          "silk_overlap|91750000|161460000|a03d0cdf-5634-4716-84e3-643954b706f7|a20e20b1-f6eb-47ff-b967-b3a8fdc14842",
+          ""
+        ],
+        [
+          "starved_thermal|64000000|105080000|e947e74e-ff45-4070-8a62-9951ee25e667|41375597-3638-439a-baf6-3efdcd07b1e4|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|66540000|105080000|e947e74e-ff45-4070-8a62-9951ee25e667|ba170a9f-088a-4926-981a-89aeb5859182|B.Cu",
           ""
         ]
       ],
@@ -752,7 +836,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J31",
     "variants": []
   },
   "sheets": [
